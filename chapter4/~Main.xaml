@@ -1,0 +1,211 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="702.4,1143.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,1078.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="アプリケーションを使用: RPAトレーニングアプリ" sap:VirtualizedContainerService.HintSize="483.2,966.4" ScopeGuid="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="449.6,675.2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 'ログイン'" EmptyFieldMode="SingleLine" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Text="guest" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="730, 467, 478, 46" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'ユーザーID'" FullSelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='username' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='username' role='editable text' /&gt;" Guid="d3ecee48-c732-4240-9a6b-f3ce457f89f5" InformativeScreenshot="beaab6a0a39e248c34adcbd6fbd77d0c.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="730, 424, 478, 20" ElementType="Text" FriendlyName="'ログイン'" FullSelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl name='ログイン' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl name='ログイン' role='text' automationid='' check:text='ログイン' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 'パスワード'" EmptyFieldMode="SingleLine" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Text="guest" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="730, 513, 478, 45" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'パスワード'" FullSelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='password' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='password' role='editable text' /&gt;" Guid="020e68d1-ff84-4fa9-b9dc-35154aac80b5" InformativeScreenshot="3303b7cc7c6231195e5b4b193fdb7e85.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック 'ログイン'" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="943, 592, 52, 23" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'ログイン'" FullSelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='loginButton' /&gt;&lt;ctrl name='ログイン' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='loginButton' /&gt;&lt;ctrl name='ログイン' role='text' automationid='' check:text='ログイン' /&gt;" Guid="18980019-c12e-44f5-9bf3-d8a7515b991d" InformativeScreenshot="83f10bc050c339056796401894789c95.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="755, 583, 428, 40" ElementType="Button" FriendlyName="'ログイン'" FullSelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='loginButton' /&gt;" FuzzySelectorArgument="&lt;ctrl name='ログイン' role='grouping' /&gt;&lt;ctrl automationid='loginButton' role='push button' check:text='ログイン' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '経費申請'" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="934, 180, 70, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'経費申請'" FullSelectorArgument="&lt;ctrl automationid='NavigateExpensesButton' /&gt;&lt;ctrl name='経費申請' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='NavigateExpensesButton' /&gt;&lt;ctrl name='経費申請' role='text' automationid='' check:text='経費申請' /&gt;" Guid="c9a0b8a4-9a06-468f-b1b5-af18b37d0f3a" InformativeScreenshot="6b9df803c72781fe02af364d20331cd3.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="134, 172, 1670, 40" ElementType="Button" FriendlyName="'経費申請'" FullSelectorArgument="&lt;ctrl automationid='NavigateExpensesButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='NavigateExpensesButton' role='push button' check:text='経費申請' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック 'push button'" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="94, 48, 68, 68" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'push button'" FullSelectorArgument="&lt;ctrl automationid='NavigateExpenseListButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='NavigateExpenseListButton' role='push button' /&gt;" Guid="ae44f124-729a-4161-bbf3-f385646c5030" InformativeScreenshot="33684949131250704df69f8a028c8f60.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '社員番号'" EmptyFieldMode="SingleLine" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Text="10" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="576, 207, 1229, 31" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl idx='2' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" Guid="39b8dbc8-7d66-4c2e-be37-b15e2a0cd94a" InformativeScreenshot="40e659388fd2424207e1b934d0cfab37.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="466, 213, 60, 19" ElementType="Text" FriendlyName="'社員番号'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='社員番号' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='社員番号' role='text' automationid='' check:text='社員番号' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '利用日'" EmptyFieldMode="SingleLine" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Text="2" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="576, 359, 1203, 20" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'2023/10/05'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl automationid='PART_TextBox' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl automationid='PART_TextBox' role='editable text' /&gt;" Guid="dcaecb0d-581f-4613-90eb-f72b28b8235f" InformativeScreenshot="bf369b8942228c74ae187f0babb7630c.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="481, 360, 45, 20" ElementType="Text" FriendlyName="'利用日'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='利用日' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='利用日' role='text' automationid='' check:text='利用日' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '金額'" EmptyFieldMode="SingleLine" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Text="3" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="576, 410, 1229, 32" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'editable text'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl idx='4' role='editable text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl automationid='' role='editable text' /&gt;" Guid="fcd0fc00-a140-459c-acf3-7a2b6aec7e84" InformativeScreenshot="66e5b944a4a10bc86f9f373bf2ea1e29.png" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="496, 416, 30, 20" ElementType="Text" FriendlyName="'金額'" FullSelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='金額' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='ExpenseInputBox' /&gt;&lt;ctrl name='金額' role='text' automationid='' check:text='金額' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '登録'" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="952, 932, 35, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'登録'" FullSelectorArgument="&lt;ctrl automationid='loginButton' /&gt;&lt;ctrl name='登録' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='loginButton' /&gt;&lt;ctrl name='登録' role='text' automationid='' check:text='登録' /&gt;" Guid="54c4ca92-3de2-49e6-b89e-9ef63f00e4ab" InformativeScreenshot="78216c8cdb8a0675f637f12aeb69c36c.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="134, 924, 1670, 40" ElementType="Button" FriendlyName="'登録'" FullSelectorArgument="&lt;ctrl automationid='loginButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='loginButton' role='push button' check:text='登録' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック 'OK'" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0d4a4e72-a870-42ab-94e4-8b6a19e77aff" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="1383, 586, 20, 20" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'OK'" FullSelectorArgument="&lt;ctrl automationid='PART_AffirmativeButton' /&gt;&lt;ctrl name='OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='PART_AffirmativeButton' /&gt;&lt;ctrl name='OK' role='text' automationid='' check:text='OK' /&gt;" Guid="00c8e6bf-a5ee-45cb-8e71-b2e8d696482c" InformativeScreenshot="40ac1548a2aeb4b64a33ce30d1744dee.png" ScopeSelectorArgument="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1343, 574, 100, 44" ElementType="Button" FriendlyName="'OK'" FullSelectorArgument="&lt;ctrl automationid='PART_AffirmativeButton' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='PART_AffirmativeButton' role='push button' check:text='OK' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" FilePath="C:\Users\gotoj\Documents\uipath studio\chapter4\rpatrainingapp.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAKlSURBVFhH7dhbT1NBEMDxPtn7lX5JBUSlcmwVW0TEO6JJP0A/gvERUUupoiIKIgpWnyUmvPdlnJ2ze7pbZz1mDaQmZ5N/qiEZfpnhBWLRi170Ql5tplL3vMpR1avAqCVsMe4LJ12n02E/xeJGAvinCNjv90eyCPivscBWqwXNZjNI/F//+mL3J5QffYfyw2/U2DL2oEeVlr5C6f6BbB9K9/ahePcLlLDinc+w0P5hzAr7Xk4bJNByD8rYGILGlhQIQxBFIB9VvC3ag+KtPSjc/MTOtOUGJJTcFIHwM9gSpoEUilrchcKNXXamLRYYtvYA9teoj5AXLexA/vqOMetYTuyfboAqEEoDqSSqIGH5+W3IXfvAzrTlBtQ2VSTUYFPihGpTopxEUXPvKW6mLRYYtnZjU+p0AWo72FSAamxRWVF9y5h1LCf+DTUvkqBhFIJy9XeQvYrNbuLnJjvTlhNQ/TwFKHk6BcsqEIUohGWuvIUslrn8hp1piwWGrd1AyU3lcFM6iFCzPkiUrr2GDJaubhizwnLaoDqdAPnnUyB/UzqKQlT6Eua9gpT3kp1pywmobymrbSlTEw2jNgiVmhF1IXWxy860xQLDTqxvSW0qUzU3lR5CpSrrVHJ63ZgVltMGxaaGT6fORygBkqgkoTqQvCBag+T5NXamLScgoRSMtmSiUrglH4UgWeJc22+qzc60xQLDTuyfTqIq2qa0LYl0VGLqBSTOPof45DNjVlhOGxz8PJmnSwQoxBBogKImViE+vsrOtOUEZFEChMURxKFOnXnqd3qFnWnLDaij5JYC1ASGIEpD6XEzbTkB5570aFPxSYQNo8Z5lKrx+ICdacsJeJL9H0DPmz46PDR/2xqFhEkBG+Ifo5ZYnLDJv3FFL3rR418s9gtgJfOfe+BP+wAAAABJRU5ErkJggg==" InformativeScreenshot="68f2041b613d574d3d3286846287872b.png" Selector="&lt;wnd app='rpatrainingapp.exe' cls='HwndWrapper*' title='RPAトレーニングアプリ' /&gt;" Title="RPAトレーニングアプリ" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
