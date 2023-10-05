@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="836,2195.2" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="647.2,2130.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="コメント アウト" sap:VirtualizedContainerService.HintSize="584.8,754.4" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="無視されるアクティビティ" sap:VirtualizedContainerService.HintSize="545.6,676" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ブラウザーを使用 Chrome: Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - Google Chrome" sap:VirtualizedContainerService.HintSize="483.2,564" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ddd7bf93-6e8e-4ac5-9b8a-c0acf60f86c3" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック 'タブを検索 最小化'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ddd7bf93-6e8e-4ac5-9b8a-c0acf60f86c3" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="8, 0, 1304, 1007" DesignTimeScaleFactor="1.25" FriendlyName="'タブを検索 最小化'" FullSelectorArgument="&lt;ctrl name='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - メモリ使用量 -*' role='pane' /&gt;&lt;ctrl idx='2' role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - メモリ使用量 -*' role='pane' /&gt;&lt;ctrl automationid='' role='pane' check:fulltext='タブを検索&amp;#xD;&amp;#xA;最小化&amp;#xD;&amp;#xA;最大化&amp;#xD;&amp;#xA;閉じる&amp;#xD;&amp;#xA;閉じる&amp;#xD;&amp;#xA;閉じる&amp;#xD;&amp;#xA;新しいタブ&amp;#xD;&amp;#xA;戻る&amp;#xD;&amp;#xA;進む&amp;#xD;&amp;#xA;再読み込み&amp;#xD;&amp;#xA;rpatrainingsite.com/onlinepractice/chapter7.2' /&gt;" Guid="31ab1012-ad1a-4d28-8c64-e62b8a8a7645" InformativeScreenshot="2de12e4c6e1b4c97d75bf5f5c8f78094.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - Google C*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="5e87ea1231331f207c2a5b8a51e078ba.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - Google C*' /&gt;" Title="Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site - Google Chrome" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="ブラウザーを使用 Chrome: Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site" sap:VirtualizedContainerService.HintSize="584.8,1224" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="0377cfd4-62ee-44b3-9cff-9805e06a4ed5" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="実行" sap:VirtualizedContainerService.HintSize="449.6,1007.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="文字を入力 '商品名を入力してください'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0377cfd4-62ee-44b3-9cff-9805e06a4ed5" Text="uipath" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="524, 602, 648, 48" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT name_799854'" FullSelectorArgument="&lt;webctrl id='name_799854' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='*' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="d2bb4eab-26c3-44b4-8266-7e76c6127bee" InformativeScreenshot="b69989026a6373d2c0b2bf25ff73689d.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="524, 562, 240, 30" ElementType="Text" FriendlyName="'商品名を入力してください'" FullSelectorArgument="&lt;webctrl aaname='商品名を入力してください' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='商品名を入力してください' tag='LABEL' type='' class='' check:innerText='商品名を入力してください' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '送信'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0377cfd4-62ee-44b3-9cff-9805e06a4ed5" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="524, 697, 67, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'送信'" FullSelectorArgument="&lt;webctrl id='registerButton' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='registerButton' tag='BUTTON' type='button' class='btn btn-primary' aaname='送信' check:innerText='送信' /&gt;" Guid="713d467f-a1f5-48d2-b624-c86e7c89502b" InformativeScreenshot="029652e26b8505c25bcd682415b881b2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTakeScreenshot DisplayName="スクリーンショットを作成" FileName="screenshot.png" FileNameMode="None" sap:VirtualizedContainerService.HintSize="387.2,240" sap2010:WorkflowViewState.IdRef="NTakeScreenshot_1" Version="V3" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="クリック '閉じる'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0377cfd4-62ee-44b3-9cff-9805e06a4ed5" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://rpatrainingsite.com/onlinepractice/chapter7.2/" DesignTimeRectangle="867, 436, 84, 42" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'閉じる'" FullSelectorArgument="&lt;webctrl parentid='Modal1' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='Modal1' tag='BUTTON' type='button' class='btn btn-default' aaname='閉じる' check:innerText='閉じる' /&gt;" Guid="3c618ffa-ca11-4fb0-b76c-a61899471a9f" InformativeScreenshot="df9644640e31d5484472f2fc86dab256.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="bf4fced95e8a1e8a5b4d1e326b46eaaf.jpg" Selector="&lt;html app='chrome.exe' title='Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site' /&gt;" Title="Chapter7.2. セレクターエディターによるセレクターの修復 : RPA Training Site" Url="https://rpatrainingsite.com/onlinepractice/chapter7.2/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
